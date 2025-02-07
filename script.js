@@ -48,6 +48,18 @@ if (contactForm) {
 // Project data
 const projects = [
     {
+        title: "Kernel Module",
+        description: "Developed, loaded, and unloaded a simple Kernel Module in C. Testing on Ubunut Linux running in VM.",
+        shortDescription: "Linux Kernel Module",
+        technologies: ["C", "GNU make", "GCC", "Linux", "VIM"],
+        // image: "assets/softphone-thumb.jpg",
+        gallery: [
+            "assets/kern-mod-1.jpg"
+        ],
+        github: "https://github.com/saw-projects/kernel-modules",
+        longDescription: "Developed, loaded, and unloaded a simple Kernel Module in C. Testing on Ubunut Linux running in VM."
+    },
+    {
         title: "Soft Phone",
         description: "A software-based phone system built with Twilio API integration, enabling texts and voice calls directly from web browsers. Features include call management, contact lists, and call history.",
         shortDescription: "Browser-based VoIP solution",
@@ -87,7 +99,7 @@ const projects = [
         title: "More Projects in Progress",
         description: "Several exciting projects are currently in development, including work with machine learning, microservices, and more.",
         shortDescription: "Stay tuned for upcoming projects!",
-        technologies: ["Data Science", "Machine Learning", "Go", "Linux", "Networking", "Microservices", "CI/CD"],
+        technologies: ["Linux/UNIX", "C", "Operating Systems", "Networking", "Data Science", "Machine Learning", "Microservices", "CI/CD"],
         gallery: [],
         github: "",
         longDescription: "Multiple personal and school projects are currently in development, exploring various areas of computer science. These projects showcase different technologies and problem-solving approaches."
