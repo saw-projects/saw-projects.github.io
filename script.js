@@ -51,13 +51,25 @@ const projects = [
         title: "Receipts Dashboard",
         description: "An application that allows the user to upload receipts to be stored in SQLite database. Allows small business to store and categorize receipts for tax purposes.",
         shortDescription: "Receipts Dashboard",
-        technologies: ["C", "GNU make", "GCC", "Linux", "VIM"],
+        technologies: ["Git", "SSH", "Bash", "SQLite", "Python", "Flask", "Raspberry Pi"],
         // image: "assets/softphone-thumb.jpg",
         gallery: [
             "assets/receipt-dashboard-1.jpg"
         ],
         github: "https://github.com/saw-projects/pi-dashboard-v1",
         longDescription: "Small businesses must keep all expensed receipts for 7-years either physically or digitally. This project allowed the user to save time by creating a single page form to upload data and the receipt file in order to be categorized and stored by the program. The dashboard allows the user to sort, filter, and search for receipts and then view them. The project was deployed to a raspberry pi on the local network using SSH and Git. The project was tested by running a Flask Server. The build was automated using a bash script. "
+    },
+    {
+        title: "Web Scraper - Data Pipeline",
+        description: "A webscraper that runs jobs 24/7 on a headless Raspberry Pi.",
+        shortDescription: "Web Scraper - Data Pipeline",
+        technologies: ["SQLite", "Python", "Raspberry Pi", "Git", "SSH"],
+        // image: "assets/softphone-thumb.jpg",
+        gallery: [
+            "assets/receipt-dashboard-1.jpg"
+        ],
+        github: "https://github.com/saw-projects",
+        longDescription: "A webscraper that runs scheduled jobs and saves data to a SQLite database."
     },
     {
         title: "Kernel Module",
@@ -70,6 +82,18 @@ const projects = [
         ],
         github: "https://github.com/saw-projects/kernel-modules",
         longDescription: "Developed, loaded, and unloaded a simple Kernel Module in C. Tested on Ubunut Linux running in VM."
+    },
+    {
+        title: "POSIX Shell",
+        description: "",
+        shortDescription: "POSIX Shell",
+        technologies: ["C", "GNU make", "GCC", "VIM"],
+        // image: "assets/softphone-thumb.jpg",
+        gallery: [
+            "assets/receipt-dashboard-1.jpg"
+        ],
+        github: "https://github.com/saw-projects/pi-dashboard-v1",
+        longDescription: "POSIX-compliant shell for UNIX/Linux operating system implementing a large portion of the POSIX shell’s functionality."
     },
     {
         title: "Soft Phone",
