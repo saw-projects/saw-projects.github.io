@@ -57,7 +57,7 @@ const projects = [
             "assets/receipt-dashboard-1.jpg"
         ],
         github: "https://github.com/saw-projects/pi-dashboard-v1",
-        longDescription: "Small businesses must keep all expensed receipts for 7-years either physically or digitally. This project allowed the user to save time by creating a single page form to upload data and the receipt file in order to be categorized and stored by the program. The dashboard allows the user to sort, filter, and search for receipts and then view them. The project was deployed to a raspberry pi on the local network using SSH and Git. The project was tested by running a Flask Server. The build was automated using a bash script. "
+        longDescription: "Small businesses must keep all expensed receipts for 7-years for tax purposes. Saving receipts digitally is ideal, but organizing and searching receipts can be difficult. This project allowed the user to save time by creating a single page form to upload data and the receipt file in order to be categorized and stored by the program in a dedicated SQL database. The dashboard allows the user to sort, filter, and search for receipts and then view them. The project was deployed to a raspberry pi on the local network using SSH and Git. The project was tested by running a Flask Server. The build was automated using a bash script."
     },
     {
         title: "Web Scraper - Data Pipeline",
