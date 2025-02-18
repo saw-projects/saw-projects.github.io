@@ -50,7 +50,7 @@ const projects = [
     {
         title: "Receipts Dashboard",
         description: "An application that allows the user to upload receipts to be stored in SQLite database. Allows small business to store and categorize receipts for tax purposes.",
-        shortDescription: "Receipts Dashboard",
+        shortDescription: "Dashboard to upload and manage business receipts",
         technologies: ["Git", "SSH", "Bash", "SQLite", "Python", "Flask", "Raspberry Pi"],
         // image: "assets/softphone-thumb.jpg",
         gallery: [
@@ -61,8 +61,8 @@ const projects = [
     },
     {
         title: "Web Scraper - Data Pipeline",
-        description: "A webscraper that runs jobs 24/7 on a headless Raspberry Pi.",
-        shortDescription: "Web Scraper - Data Pipeline",
+        description: "A webscraper that runs jobs 24/7 on a headless Raspberry Pi",
+        shortDescription: "Data Pipeline implementation deployed over SSH on Raspberry Pi",
         technologies: ["SQLite", "Python", "Raspberry Pi", "Git", "SSH"],
         // image: "assets/softphone-thumb.jpg",
         gallery: [
@@ -86,7 +86,7 @@ const projects = [
     {
         title: "POSIX Shell",
         description: "",
-        shortDescription: "POSIX Shell",
+        shortDescription: "POSIX Shell - OS Class Project",
         technologies: ["C", "GNU make", "GCC", "VIM"],
         // image: "assets/softphone-thumb.jpg",
         gallery: [
