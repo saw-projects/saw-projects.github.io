@@ -135,7 +135,7 @@ const projects = [
         title: "More Projects in Progress",
         description: "Several exciting projects are currently in development, including work with machine learning, microservices, and more.",
         shortDescription: "Stay tuned for upcoming projects!",
-        technologies: ["Linux/UNIX", "C", "Operating Systems", "Networking", "Data Science", "Machine Learning", "Microservices", "CI/CD"],
+        technologies: ["Linux/UNIX", "C", "Operating Systems", "Networking", "Software Development and Testing", "Data Science", "Machine Learning", "Microservices", "CI/CD"],
         gallery: [],
         github: "",
         longDescription: "Multiple personal and school projects are currently in development, exploring various areas of computer science. These projects showcase different technologies and problem-solving approaches."
