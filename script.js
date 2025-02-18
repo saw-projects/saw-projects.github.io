@@ -48,8 +48,20 @@ if (contactForm) {
 // Project data
 const projects = [
     {
+        title: "Receipts Dashboard",
+        description: "An application that allows the user to upload receipts to be stored in SQLite database. Allows small business to store and categorize receipts for tax purposes.",
+        shortDescription: "Receipts Dashboard",
+        technologies: ["C", "GNU make", "GCC", "Linux", "VIM"],
+        // image: "assets/softphone-thumb.jpg",
+        gallery: [
+            "assets/receipt-dashboard-1.jpg"
+        ],
+        github: "https://github.com/saw-projects/pi-dashboard-v1",
+        longDescription: "Small businesses must keep all expensed receipts for 7-years either physically or digitally. This project allowed the user to save time by creating a single page form to upload data and the receipt file in order to be categorized and stored by the program. The dashboard allows the user to sort, filter, and search for receipts and then view them. The project was deployed to a raspberry pi on the local network using SSH and Git. The project was tested by running a Flask Server. The build was automated using a bash script. "
+    },
+    {
         title: "Kernel Module",
-        description: "Developed, loaded, and unloaded a simple Kernel Module in C. Testing on Ubunut Linux running in VM.",
+        description: "Developed, loaded, and unloaded a simple Kernel Module in C. Tested on Ubunut Linux running in VM.",
         shortDescription: "Linux Kernel Module",
         technologies: ["C", "GNU make", "GCC", "Linux", "VIM"],
         // image: "assets/softphone-thumb.jpg",
@@ -57,7 +69,7 @@ const projects = [
             "assets/kern-mod-1.jpg"
         ],
         github: "https://github.com/saw-projects/kernel-modules",
-        longDescription: "Developed, loaded, and unloaded a simple Kernel Module in C. Testing on Ubunut Linux running in VM."
+        longDescription: "Developed, loaded, and unloaded a simple Kernel Module in C. Tested on Ubunut Linux running in VM."
     },
     {
         title: "Soft Phone",
