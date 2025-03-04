@@ -137,7 +137,7 @@ const projects = [
         shortDescription: "Stay tuned for upcoming projects!",
         technologies: ["Linux/UNIX", "C", "Operating Systems", "Networking", "Software Development and Testing", "Data Science", "Machine Learning", "Microservices", "CI/CD"],
         gallery: [],
-        github: "",
+        github: "https://github.com/saw-projects",
         longDescription: "Multiple personal and school projects are currently in development, exploring various areas of computer science. These projects showcase different technologies and problem-solving approaches."
     } 
 ];
