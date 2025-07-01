@@ -60,30 +60,6 @@ const projects = [
         longDescription: "Small businesses must keep all expensed receipts for 7-years for tax purposes. Saving receipts digitally is ideal, but organizing and searching receipts can be difficult. This project allowed the user to save time by creating a single page form to upload data and the receipt file in order to be categorized and stored by the program in a dedicated SQL database. The dashboard allows the user to sort, filter, and search for receipts and then view them. The project was deployed to a raspberry pi on the local network using SSH and Git. The project was tested by running a Flask Server. The build was automated using a bash script."
     },
     {
-        title: "Web Scraper - Data Pipeline",
-        description: "A webscraper that runs jobs 24/7 on a headless Raspberry Pi",
-        shortDescription: "Data Pipeline implementation deployed over SSH on Raspberry Pi",
-        technologies: ["SQLite", "Python", "Raspberry Pi", "Git", "SSH"],
-        // image: "assets/softphone-thumb.jpg",
-        gallery: [
-            "assets/receipt-dashboard-1.jpg"
-        ],
-        github: "https://github.com/saw-projects",
-        longDescription: "A webscraper that runs scheduled jobs and saves data to a SQLite database."
-    },
-    {
-        title: "Kernel Module",
-        description: "Developed, loaded, and unloaded a simple Kernel Module in C. Tested on Ubunut Linux running in VM.",
-        shortDescription: "Linux Kernel Module",
-        technologies: ["C", "GNU make", "GCC", "Linux", "VIM"],
-        // image: "assets/softphone-thumb.jpg",
-        gallery: [
-            "assets/kern-mod-1.jpg"
-        ],
-        github: "https://github.com/saw-projects/kernel-modules",
-        longDescription: "Developed, loaded, and unloaded a simple Kernel Module in C. Tested on Ubunut Linux running in VM."
-    },
-    {
         title: "POSIX Shell",
         description: "",
         shortDescription: "POSIX Shell - OS Class Project",
@@ -130,16 +106,7 @@ const projects = [
         ],
         github: "https://github.com/saw-projects/API-projects",
         longDescription: "This REST API backend provides a robust foundation for web applications with features including JWT authentication, rate limiting, and comprehensive API documentation. The system is built with scalability in mind and follows REST best practices."
-    },
-    {
-        title: "More Projects in Progress",
-        description: "Several exciting projects are currently in development, including work with machine learning, microservices, and more.",
-        shortDescription: "Stay tuned for upcoming projects!",
-        technologies: ["Linux/UNIX", "C", "Operating Systems", "Networking", "Software Development and Testing", "Data Science", "Machine Learning", "Microservices", "CI/CD"],
-        gallery: [],
-        github: "https://github.com/saw-projects",
-        longDescription: "Multiple personal and school projects are currently in development, exploring various areas of computer science. These projects showcase different technologies and problem-solving approaches."
-    } 
+    }
 ];
 
 // Function to create project cards
